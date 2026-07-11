@@ -57,39 +57,36 @@ export default function App() {
         }}
       >
         <h1>🎉 Game Over</h1>
+<a
+  href="https://www.vecteezy.com/vector-art/7118538-happy-fathers-day"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Happy Father's Day Vectors by Vecteezy
+</a>
 
-        <img
-          src="https://pngtree.com/freepng/happy-father-s-day_20945886.html"
-          alt="Dad"
-          style={{
-            width: "250px",
-            borderRadius: "15px",
-            marginBottom: "20px",
-          }}
-        />
+<h2>Happy Father's Day, Papang! 💙</h2>
 
-        <h2>Happy Father's Day, Papang! 💙</h2>
+<p>Thanks for every laugh, lesson, and sacrifice.</p>
 
-        <p>Thanks for every laugh, lesson, and sacrifice.</p>
+<h3>Score: {score}</h3>
 
-        <h3>Score: {score}</h3>
+<h3>🏆 Highest Score: {highScore}</h3>
 
-        <h3>🏆 Highest Score: {highScore}</h3>
-
-        <button
-          onClick={restartGame}
-          style={{
-            padding: "10px 20px",
-            fontSize: "18px",
-            borderRadius: "10px",
-            border: "none",
-            cursor: "pointer",
-            background: "#38bdf8",
-            color: "white",
-          }}
-        >
-          🔄 Try Again
-        </button>
+<button
+  onClick={restartGame}
+  style={{
+    padding: "10px 20px",
+    fontSize: "18px",
+    borderRadius: "10px",
+    border: "none",
+    cursor: "pointer",
+    background: "#38bdf8",
+    color: "white",
+  }}
+>
+  🔄 Try Again
+</button>
       </div>
     );
   }
