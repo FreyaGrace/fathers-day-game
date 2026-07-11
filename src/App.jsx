@@ -59,7 +59,7 @@ export default function App() {
         <h1>🎉 Game Over</h1>
 
         <img
-          src="/dad.jpg"
+          src="https://pngtree.com/freepng/happy-father-s-day_20945886.html"
           alt="Dad"
           style={{
             width: "250px",
